@@ -15,4 +15,7 @@ while round < 3:
         print("Round", round,": Tails")
         t += 1
 print("Heads:", h,", Tails:", t)
-
+if h > t:
+    print("You won")
+else:
+    print("You lost")
