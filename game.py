@@ -21,6 +21,6 @@ while round < 3:
         t += 1
 print("Heads:", h,", Tails:", t)
 if h > t:
-    print("You won")
+    print(name,"won!")
 else:
-    print("You lost")
+    print(name,"lost!")
