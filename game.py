@@ -1,8 +1,13 @@
+from os import name
 import random
 round = 0
 coin = random.randint(1,2)
 h = 0
 t = 0
+
+print("Who are you?")
+name = input()
+print("Hello,",name)
 
 print("Tossing a coin...")
 while round < 3:
